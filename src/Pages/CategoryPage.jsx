@@ -8,7 +8,7 @@ const CategoryPage = () => {
     const navigation = useNavigate();
     const category = location.pathname.split('/').at(-1);
     return (
-        <div className='flex flex-col items-center'>
+        <div >
             <Header />
             <div>
                 <div>

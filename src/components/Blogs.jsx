@@ -12,7 +12,7 @@ const Blogs = () => {
       {
         loading ? (<Spinner />) : (
           posts.length === 0 ? (<div>
-            <p>No Post Found!</p>
+            <p className="text-center font-bold text-3xl">No Post Found!</p>
           </div>) :
             (posts.map((post) => (
               <BlogDetails key={post.id} post={post}/>

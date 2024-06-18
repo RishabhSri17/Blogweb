@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div >
         <Header />
         <div>
             <Blogs />

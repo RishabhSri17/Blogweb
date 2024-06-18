@@ -10,7 +10,7 @@ const TagPage = () => {
     const tag = location.pathname.split('/').at(-1);
 
     return (
-        <div className='flex flex-col items-center'>
+        <div>
             <Header />
             <div>
                 <div>
