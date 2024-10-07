@@ -30,6 +30,10 @@ function App() {
     }
   }, [location.pathname, location.search]);
 
+  console.log(searchParams.get("page") );
+  console.log(location.pathname.split("/").at(-1).replaceAll("-", " "));
+  console.log(location.pathname);
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
